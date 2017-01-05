@@ -68,9 +68,50 @@
 
         console.log(tree);
 
+        i = i + 1;
         tree += '#';
-        i     = i + 1;
 
     }
 
     // 7 Modo
+    for (i = 1; i <= 7; i = i + 1) {
+
+        switch (i <= 7) {
+
+            case i === 1:
+              console.log('#');
+              break;
+
+            case i === 2:
+                console.log('##');
+                break;
+
+            case i === 3:
+                console.log('###');
+                break;
+
+            case i === 4:
+                console.log('####');
+                break;
+
+            case i === 5:
+                console.log('#####');
+                break;
+
+            case i === 6:
+                console.log('######');
+                break;
+
+            case i === 7:
+                console.log('########');
+                break;
+
+            default:
+                console.log('#');
+                break;
+
+        }
+
+    }
+
+    // 8 Modo
