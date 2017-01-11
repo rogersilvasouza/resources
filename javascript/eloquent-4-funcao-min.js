@@ -3,11 +3,16 @@
 
     // 1 Modo
     console.time('wayOfDoing1');
+
     var min = function(numberOne, numberTwo) {
 
         if (numberOne < numberTwo) {
 
-            return true;
+            return numberOne;
+
+        } if (numberTwo < numberOne) {
+
+            return numberTwo;
 
         }
 
