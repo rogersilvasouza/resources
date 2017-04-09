@@ -69,4 +69,14 @@ git reset HEAD nomedoarquivo.extensao
 # revert para um commit
 git revert hashdocommit
 
+# parar um stage e guardar no stash
+git stash
+git stash list #tudo que está no stash
+git stash pop  #retorna ao ponto que vc parou
+git stash drop #destroi o stash
+
+# git bisect para encontrar problemas vai vendo commit a commit
+git bisect start
+git bisect bad
+git bisect good
 
