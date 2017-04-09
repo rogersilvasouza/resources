@@ -63,3 +63,6 @@ git blame public/index.html
 #ver atualizações no repositorio remoto
 git fetch origin
 
+# resetar uma alteração do antes de commitar
+git reset HEAD nomedoarquivo.extensao
+
