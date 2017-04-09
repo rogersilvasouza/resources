@@ -66,3 +66,7 @@ git fetch origin
 # resetar uma alteração do antes de commitar
 git reset HEAD nomedoarquivo.extensao
 
+# revert para um commit
+git revert hashdocommit
+
+
