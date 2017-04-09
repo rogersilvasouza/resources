@@ -77,6 +77,8 @@ git stash drop #destroi o stash
 
 # git bisect para encontrar problemas vai vendo commit a commit
 git bisect start
+git bisect bad HEAD # Commit atual que não funciona
+git bisect good hashdocommit # Commit que funciona
 git bisect bad
 git bisect good
 
