@@ -35,6 +35,8 @@ git whatchanged -p #ver tudo que mudou
 git branch
 git branch -r #apenas branchs remotas
 git branch -a #todas as branchs incluido remotas
+git brach nomedabranch
+git push -d origin nomedabranch #remove branch
 
 # Adicionar arquivo ao stage
 git add arquivo
@@ -58,4 +60,6 @@ git push -u origin master
 # git ver alteracoes linha a linha e quem fez a alteração
 git blame public/index.html
 
+#ver atualizações no repositorio remoto
+git fetch origin
 
