@@ -27,6 +27,7 @@ git ls-files
 #ver log do repositorio
 git log
 git log --pretty=oneline #logs em apenas uma linha
+git log --graph #com um grafico
 
 #ver o que mudou no repositorio
 git whatchanged
