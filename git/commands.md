@@ -84,3 +84,10 @@ git bisect good hashdocommit # Commit que funciona
 git bisect bad
 git bisect good
 
+
+# resolver conflitos
+git merge develop --no-ff
+git commit -am "Conflict resolution"
+git push origin feature/users
+git flow feature finish
+git push origin develop
